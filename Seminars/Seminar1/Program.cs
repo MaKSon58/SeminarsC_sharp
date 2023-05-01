@@ -45,7 +45,7 @@
 // //int ed = n % 10;
 // Console.WriteLine($"Last digit of {n} -> {n%10}");
 
-int num = 123;
-string numS = Convert.ToString(num);
-Console.WriteLine(numS);
-Console.WriteLine(numS.GetType());
+// int num = 123;
+// string numS = Convert.ToString(num);
+// Console.WriteLine(numS);
+// Console.WriteLine(numS.GetType());
