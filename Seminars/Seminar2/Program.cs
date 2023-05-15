@@ -28,14 +28,14 @@
 // 34, 5 -> не кратно, остаток 4
 // 16, 4 -> кратно
 
-// bool Kratnost (int num1, int num2)
-// {
-//     if(num1 % num2 == 0) return true;
-//     else return false;
-// }
-// Console.WriteLine("Input first number");
-// int num1 = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine("Input second number");
-// int num2 = Convert.ToInt32(Console.ReadLine());
+bool Kratnost (int num1, int num2)
+{
+    if(num1 % num2 == 0) return true;
+    else return false;
+}
+Console.WriteLine("Input first number");
+int num1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Input second number");
+int num2 = Convert.ToInt32(Console.ReadLine());
 
-// Console.WriteLine($"{num1}, {num2} -> {Kratnost(num1, num2)}, ost {num1%num2}");
+Console.WriteLine($"{num1}, {num2} -> {Kratnost(num1, num2)}, ost {num1%num2}");
